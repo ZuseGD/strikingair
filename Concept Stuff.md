@@ -55,6 +55,7 @@
   * Dark Elves
   * Orcs
   * Tieflings
+  * Dwarves
 
 
 
