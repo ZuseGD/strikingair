@@ -1,16 +1,33 @@
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "BaseCharacter", menuName = "Scriptable Objects/BaseCharacter")]
-public class BaseCharacter : ScriptableObject
+public class BaseCharacter : MonoBehaviour
 {
+    public enum Race
+    {
+        Human,
+        Elf,
+        Dwarf,
+        Orc,
+        Goblin,
+        Tiefling,
+        DarkElf
+    }
+
+
+    public Race race;
     public string characterName;
-    [SerializeField] public float health;
+    public float health;
     public int strength;
     public int dexterity;
     public int intelligence;
     public int charisma;
     public int wisdom;
 
-    
+
+
+    void Start()
+    {
+        
+    }
     
 }

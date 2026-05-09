@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class GeneratorScript : MonoBehaviour
 {
-    
+    BaseCharacter character;
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
